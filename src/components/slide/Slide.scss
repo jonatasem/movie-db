@@ -1,0 +1,31 @@
+.container-slide {
+    position: relative;
+    width: 90%;
+    max-width: 800px; // Limita a largura máxima
+    height: 100px;
+    margin: 2rem auto;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex; // Flexbox para centralizar conteúdo
+    align-items: center; // Centraliza verticalmente
+
+    .slide-images {
+        display: flex;
+        width: calc(100% * 2); // Ajuste para acomodar todas as imagens
+        height: 100%;
+        transition: transform 0.5s ease;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            border-radius: 2rem;
+            transition: transform 0.3s ease; // Transição ao passar o mouse
+
+            &:hover {
+                transform: scale(1.05); // Efeito de zoom ao passar o mouse
+            }
+        }
+    }
+}

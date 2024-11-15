@@ -1,0 +1,65 @@
+.footer {
+    background-color: #f8f9fa; // Cor de fundo clara
+    padding: 40px 0.5rem; // Espaçamento interno
+  
+    .footer-social {
+      margin-bottom: 20px; // Espaçamento entre seções
+  
+      .footer-social-container {
+        display: flex;
+        justify-content: space-between; // Distribui os itens igualmente
+        flex-wrap: wrap; // Permite quebra em telas menores
+  
+        span {
+          margin-right: 20px; // Margem à direita do texto
+        }
+      }
+  
+      .footer-social-links {
+        a {
+          margin: 0 10px; // Espaçamento entre os links
+          color: #495057; // Cor dos links
+          font-size: 24px; // Tamanho do ícone
+  
+          &:hover {
+            color: #007bff; // Cor ao passar o mouse
+          }
+        }
+      }
+    }
+  
+    .footer-links {
+      .footer-links-container {
+        display: flex;
+        justify-content: space-between; // Distribui as colunas
+        flex-wrap: wrap; // Permite quebra em telas menores
+      }
+  
+      h6 {
+        font-size: 1.25rem; // Tamanho do título
+        margin-bottom: 10px; // Margem inferior
+        font-weight: bold; // Negrito
+        color: #343a40; // Cor do texto
+      }
+  
+      p {
+        margin: 5px 0; // Margem entre parágrafos
+        color: #6c757d; // Cor do texto
+      }
+    }
+  
+    .footer-copyright {
+      text-align: center; // Centraliza o texto
+      padding: 20px 0; // Espaçamento interno
+      background-color: rgba(0, 0, 0, 0.05); // Cor de fundo suave
+  
+      a {
+        color: #007bff; // Cor do link
+        text-decoration: none; // Remove sublinhado
+  
+        &:hover {
+          text-decoration: underline; // Sublinhado ao passar o mouse
+        }
+      }
+    }
+  }

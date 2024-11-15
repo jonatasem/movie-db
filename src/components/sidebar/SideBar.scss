@@ -1,0 +1,30 @@
+
+.container-side {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    div {
+        position: relative;
+        margin: 1rem 0 0;
+    }
+
+    input {
+        padding: 0.8rem 3rem;
+        outline: 0;
+        border: 1px solid silver;
+        border-radius: 2rem;
+        margin: 0.5rem 1rem;
+        font-size: 15px;
+    }
+
+    .search-icon {
+        margin: 0 1rem;
+        position: absolute;
+        top: 21px;
+        left: 8px;
+        color: silver;
+        width: 40px;
+        font-size: 20px;
+    }
+}
